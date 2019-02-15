@@ -1,0 +1,17 @@
+{
+  "name": "jsdesignpatterns",
+  "version": "1.0.0",
+  "description": "JavaScript Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "es6",
+    "design",
+    "patterns"
+  ],
+  "author": "Ashot Pahlevanyan",
+  "license": "MIT"
+}
