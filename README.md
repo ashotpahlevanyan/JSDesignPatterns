@@ -1,8 +1,8 @@
 # JS Design Patterns Book, Conspects
 
-## Each patter should have those descriptions
+## Each pattern should have those descriptions
 
-*   Patte   rn name and a description
+*   Pattern name and a description
 *   Context outline – the contexts in which the pattern is effective in responding to the users needs.
 *   Problem statement – a statement of the problem being addressed so we can understand the intent of the pattern.
 *   Solution – a description of how the user’s problem is being solved in an understandable list of steps and perceptions.
@@ -45,5 +45,34 @@ _“These notes are about the process of design; the process of inventing physic
 _“A design pattern names, abstracts, and identifies the key aspects of a common design structure that make it useful for creating a reusable object-oriented design. The design pattern identifies the participating classes and their instances, their roles and collaborations, and the distribution of responsibilities._ 
 
 * **Creational Design Patterns**
+
+    _Creational design patterns focus on handling object creation mechanisms where objects are created in a manner suitable for the situation we're working in_
+
+    * Constructor
+    * Factory
+    * Abstract
+    * Prototype
+    * Singleto
+    * Builder
+    
 * **Structural Design Patterns**
+
+    _Structural patterns are concerned with object composition and typically identify simple ways to realize relationships between different objects._
+    
+    * Decorator
+    * Facade
+    * Flyweight
+    * Adapter
+    * Proxy
+    
+    
 * **Behavioral Design Patterns**
+
+    _Behavioral patterns focus on improving or streamlining the communication between disparate objects in a system_
+
+    * Iterator, 
+    * Mediator, 
+    * Observer
+    * Visitor
+    
+    
