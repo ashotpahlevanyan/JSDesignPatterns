@@ -29,7 +29,7 @@
 * Describe a bad solution to a particular problem which resulted in a bad situation occurring
 * Describe how to get out of said situation and how to go from there to a good solution
 
-### _“These notes are about the process of design; the process of inventing physical things which display a new physical order, organization, form, in response to function.…every design problem begins with an effort to achieve fitness between two entities: the form in question and its context. The form is the solution to the problem; the context defines the problem”_
+_“These notes are about the process of design; the process of inventing physical things which display a new physical order, organization, form, in response to function.…every design problem begins with an effort to achieve fitness between two entities: the form in question and its context. The form is the solution to the problem; the context defines the problem”_
     
 ### Example os Anti-Patterns are
     
@@ -39,3 +39,11 @@
 * Modifying the Object class prototype (this is a particularly bad anti-pattern)
 * Using JavaScript in an inline form as this is inflexible
 * The use of document.write where native DOM alternatives such as document.createElement are more appropriate. document.write has been grossly misused over the years and has quite a few disadvantages including that if it's executed after the page has been loaded it can actually overwrite the page we're on, whilst document.createElement does not. We can see here for a live example of this in action. It also doesn't work with XHTML which is another reason opting for more DOM-friendly methods such as document.createElement is favorable.
+
+# Categories of Design Patterns
+
+_“A design pattern names, abstracts, and identifies the key aspects of a common design structure that make it useful for creating a reusable object-oriented design. The design pattern identifies the participating classes and their instances, their roles and collaborations, and the distribution of responsibilities._ 
+
+* **Creational Design Patterns**
+* **Structural Design Patterns**
+* **Behavioral Design Patterns**
