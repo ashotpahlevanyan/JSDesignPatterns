@@ -123,7 +123,7 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 |   Adapter |	Match interfaces of different classes therefore classes can work together despite incompatible interfaces. |
 | **Object**| |
 |   Adapter |	Match interfaces of different classes therefore classes can work together despite incompatible interfaces. |
-|   Brid	Separates an object's interface from its implementation so the two can vary independently. |
+|   Bridge	| Separates an object's interface from its implementation so the two can vary independently. |
 |   Composite |	A structure of simple and composite objects which makes the total object more than just the sum of its parts. |
 |   Decorator |	Dynamically add alternate processing to objects. |
 |   Facade |	A single class that hides the complexity of an entire subsystem. |
