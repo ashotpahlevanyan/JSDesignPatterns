@@ -74,5 +74,32 @@ _“A design pattern names, abstracts, and identifies the key aspects of a commo
     * Mediator, 
     * Observer
     * Visitor
-    
-    
+
+## A brief note on classes
+
+There are no classes in ES5, but since ES6 a syntactic sugar of Class is introduced
+ 
+ ```javascript
+ // A car "class"
+ function Car( model ) {
+  
+   this.model = model;
+   this.color = "silver";
+   this.year = "2012";
+  
+   this.getInfo = function () {
+     return this.model + " " + this.year;
+   };
+  
+ }
+ ```
+ 
+ ```javascript
+ var myCar = new Car("ford");
+  
+ myCar.year = "2010";
+  
+ console.log( myCar.getInfo() );
+ ```
+ 
+ 
