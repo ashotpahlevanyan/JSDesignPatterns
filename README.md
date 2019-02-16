@@ -134,7 +134,7 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 |   Flyweight |	A fine-grained instance used for efficient sharing of information that is contained elsewhere. |
 |   Proxy |	A place holder object representing the true object. |
 
-###Behavioral
+### Behavioral
 
 |Behavioral |	  Based on the way objects play and work together. |
 | ------------------  |   ------------------------------------------ |
