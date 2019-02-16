@@ -353,3 +353,84 @@ console.log( mondeo.toString() );
 ```
 
 Above, a single instance of toString() will now be shared between all of the Car objects.
+
+
+## The Module Pattern
+
+In JavaScript, there are several options for implementing modules. These include:
+
+
+* The Module pattern
+* Object literal notation
+* AMD modules
+* CommonJS modules
+* ECMAScript Harmony modules
+
+The latter 3 of those will be explored in section _Modern Modular JavaScript Design Patterns._
+
+### Object Literals
+
+In  Object literals objects are described as a set of comma separated __name:value__ pairs
+There should be no comma after the final __name:value__ pair
+
+```javascript
+var myObjectLiteral = {
+ 
+    variableKey: variableValue,
+ 
+    functionKey: function () {
+      // ...
+    }
+};
+```
+
+Below we can see a more complete example of a module defined using object literal notation:
+
+```javascript
+var myModule = {
+ 
+  myProperty: "someValue",
+ 
+  // object literals can contain properties and methods.
+  // e.g we can define a further object for module configuration:
+  myConfig: {
+    useCaching: true,
+    language: "en"
+  },
+ 
+  // a very basic method
+  saySomething: function () {
+    console.log( "Where in the world is Paul Irish today?" );
+  },
+ 
+  // output a value based on the current configuration
+  reportMyConfig: function () {
+    console.log( "Caching is: " + ( this.myConfig.useCaching ? "enabled" : "disabled") );
+  },
+ 
+  // override the current configuration
+  updateMyConfig: function( newConfig ) {
+ 
+    if ( typeof newConfig === "object" ) {
+      this.myConfig = newConfig;
+      console.log( this.myConfig.language );
+    }
+  }
+};
+ 
+// Outputs: Where in the world is Paul Irish today?
+myModule.saySomething();
+ 
+// Outputs: Caching is: enabled
+myModule.reportMyConfig();
+ 
+// Outputs: fr
+myModule.updateMyConfig({
+  language: "fr",
+  useCaching: false
+});
+ 
+// Outputs: Caching is: disabled
+myModule.reportMyConfig();
+```
+
