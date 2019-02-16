@@ -134,7 +134,7 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 |Behavioral |	  Based on the way objects play and work together. |
 | ------------------  |   ------------------------------------------ |
 | **Class** |    |
-|   Interpreter 	A way to include language elements in an application to match the grammar of the intended language. |
+|   Interpreter |	A way to include language elements in an application to match the grammar of the intended language. |
 |   Template Method |	Creates the shell of an algorithm in a method, then defer the exact steps to a subclass. |
 | **Object** |   |
 |   Chain of Responsibility |	A way of passing a request between a chain of objects to find the object that can handle the request. |
