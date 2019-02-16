@@ -106,6 +106,8 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
  
  # Design Pattern Categorization
  
+ ### Creational
+ 
  | Creational |	  Based on the concept of creating an object.
  | ------------------  |   ------------------------------------------ |
  |   **Class**    | | 
@@ -116,7 +118,9 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 | Prototype |	A fully initialized instance used for copying or cloning. |
 | Singleton |	A class with only a single instance with global access points. |
  
- 
+
+### Structural
+
 | Structural |  Based on the idea of building blocks of objects.
 | ------------------  |   ------------------------------------------ |
 | **Class**| |
@@ -130,6 +134,7 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 |   Flyweight |	A fine-grained instance used for efficient sharing of information that is contained elsewhere. |
 |   Proxy |	A place holder object representing the true object. |
 
+###Behavioral
 
 |Behavioral |	  Based on the way objects play and work together. |
 | ------------------  |   ------------------------------------------ |
@@ -146,3 +151,4 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
 |   State |	Alter an object's behavior when its state changes. |
 |   Strategy |	Encapsulates an algorithm inside a class separating the selection from the implementation. |
 |   Visitor |	Adds a new operation to a class without changing the class. |
+
