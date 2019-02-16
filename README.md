@@ -94,6 +94,8 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
  }
  ```
  
+ We can then instantiate the object using the Car constructor we defined above like this:
+ 
  ```javascript
  var myCar = new Car("ford");
   
@@ -102,4 +104,13 @@ There are no classes in ES5, but since ES6 a syntactic sugar of Class is introdu
  console.log( myCar.getInfo() );
  ```
  
+ | Creational |	  Based on the concept of creating an object.
+ | ------------------  |   ------------------------------------------ |
+ |   **Class**    | | 
+ | Factory Method  | This makes an instance of several derived classes based on interfaced data or events. |
+ |   **Object**    | |
+| Abstract Factory |	Creates an instance of several families of classes without detailing concrete classes. |
+| Builder |	Separates object construction from its representation, always creates the same type of object. |
+| Prototype |	A fully initialized instance used for copying or cloning. |
+| Singleton |	A class with only a single instance with global access points. |
  
